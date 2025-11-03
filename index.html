@@ -37,25 +37,29 @@
     .hidden { display:none; }
     .ok { background:#eefcf1; border:1px solid #b7e2c1; color:#165c2b; padding:8px 10px; border-radius:8px; margin-top:8px; font-size:13px; }
     code { background:#f6f6f6; padding:0 4px; border-radius:4px; }
-  
+  </style>
 
-/* === MOBILVENNLIG LAYOUT (RESPONSIV) v2 === */
+<style>
+/* === MOBILVENNLIG LAYOUT (RESPONSIV) v3 — iOS glass + lavere panel === */
 @media (max-width: 640px) {
   .panel {
     position: fixed;
-    left: 4%;
-    right: 4%;
-    bottom: 12px;
+    left: 5%;
+    right: 5%;
+    bottom: 16px;
     top: auto;
     width: auto;
-    max-width: 420px;
-    max-height: 55vh;
+    max-width: 400px;
+    max-height: min(45vh, 360px);
     padding: 10px 14px;
     overflow-y: auto;
-    background: rgba(255,255,255,0.95);
-    backdrop-filter: blur(8px);
-    border-radius: 14px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+
+    background: rgba(255,255,255,0.65);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
   }
 
   .row, .controls, .filters {
@@ -69,18 +73,10 @@
     font-size: 15px;
   }
 
-  input[type="range"] {
-    height: 24px;
-  }
+  input[type="range"] { height: 24px; }
 
-  .legend {
-    grid-template-columns: auto 1fr;
-  }
-
-  .footer {
-    text-align: center;
-  }
-
+  .legend { grid-template-columns: auto 1fr; }
+  .footer { text-align: center; }
   #map { height: 100vh; }
 
   .alert, .ok {
@@ -88,8 +84,8 @@
     padding: 10px 14px;
   }
 }
-
 </style>
+
 </head>
 <body>
   <div id="map"></div>
