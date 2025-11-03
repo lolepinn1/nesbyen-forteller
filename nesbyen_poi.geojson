@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "defa-nesbyen",
+        "name": "Defa AS",
+        "category": "Industri",
+        "address": "Blingsmovegen 30",
+        "year_open": 1967,
+        "year_close": null,
+        "url": "https://defa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.12101,
+          60.57259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "protan-nesbyen",
+        "name": "Protan AS",
+        "category": "Industri",
+        "address": "Blingsmovegen 38",
+        "year_open": 1965,
+        "year_close": null,
+        "url": "https://protan.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.12513,
+          60.57066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "reine-nesbyen",
+        "name": "Reine Element AS",
+        "category": "Industri",
+        "address": "Blingsmovegen 60",
+        "year_open": 2019,
+        "year_close": null,
+        "url": "https://reineelement.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.12769,
+          60.5688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rema-nesbyen",
+        "name": "REMA 1000 Nesbyen",
+        "category": "Dagligvare",
+        "address": "Rukkedalsvegen 45",
+        "year_open": 2007,
+        "year_close": null,
+        "url": "https://rema.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.10353,
+          60.568184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kiwi-nesbyen",
+        "name": "KIWI Nesbyen",
+        "category": "Dagligvare",
+        "address": "Jordeshagen 4",
+        "year_open": 2010,
+        "year_close": null,
+        "url": "https://kiwi.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.103863059,
+          60.569381091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sport1-nesbyen",
+        "name": "Sport 1 Nesbyen",
+        "category": "Sport",
+        "address": "Rukkedalsvegen 47",
+        "year_open": 2015,
+        "year_close": null,
+        "url": "https://www.sport1.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1024591,
+          60.5673754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3dstugu-nesbyen",
+        "name": "3D Stugu",
+        "category": "Arkitektur",
+        "address": "Alfarvegen 128 C",
+        "year_open": 2021,
+        "year_close": null,
+        "url": "https://www.3dstugu.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.09996,
+          60.5691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "maxbo-nesbyen",
+        "name": "Maxbo Nesbyen (Nesmoen)",
+        "category": "Byggevarer",
+        "address": "Nesmoen Næringspark",
+        "year_open": 2012,
+        "year_close": null,
+        "url": "https://www.maxbo.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.11324,
+          60.56169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "aparta-nesbyen",
+        "name": "Aparta AS",
+        "category": "Interiør",
+        "address": "Rukkedalsvegen 45",
+        "year_open": 2019,
+        "year_close": null,
+        "url": "https://aparta.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.10393,
+          60.56837
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "id": "oor-nesbyen",
+        "name": "Olaf O. Rukke AS",
+        "category": "Industri",
+        "address": "Nesmoen 36",
+        "year_open": 1987,
+        "year_close": null,
+        "url": "https://rukke.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.11377,
+          60.56109
+        ]
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+        "id": "monter-nesbyen",
+        "name": "Montér Nesbyen AS",
+        "category": "Byggevarer",
+        "address": "Alfarvegen 4",
+        "year_open": 1995,
+        "year_close": null,
+        "url": "https://monter.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.12766,
+          60.55838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "historisk-annet",
+        "name": "Historisk butikk (eksempel)",
+        "category": "Interiør",
+        "address": "Nesbyen sentrum",
+        "year_open": 1955,
+        "year_close": 1988,
+        "url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.10045,
+          60.57192
+        ]
+      }
+    }
+  ]
+}
