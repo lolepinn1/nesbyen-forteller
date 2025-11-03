@@ -300,12 +300,8 @@
     });
 
     // Load external GeoJSON in same folder
-    \1
-    if (statusEl) {
-      statusEl.classList.remove('hidden');
-      statusEl.textContent = 'Laster data …';
-    }
-fetch('./nesbyen_poi.geojson', {cache:'no-store'})
+    const statusEl = document.getElementById('diag');
+    fetch('nesbyen_poi.geojson', {cache:'no-store'})
       .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(geo => {
         storeData = geo;
@@ -319,7 +315,7 @@ fetch('./nesbyen_poi.geojson', {cache:'no-store'})
         console.error('Kunne ikke laste GeoJSON:', err);
         if (statusEl) {
           statusEl.classList.remove('hidden');
-          statusEl.textContent = 'Feil: Kunne ikke laste GeoJSON. Sjekk at filen ligger i samme mappe, heter "nesbyen_poi.geojson", og at GitHub Pages er publisert (Settings → Pages).';
+          statusEl.textContent = 'Feil: Kunne ikke laste GeoJSON (sjekk filnavn og plassering).';
         }
       });
   })();
