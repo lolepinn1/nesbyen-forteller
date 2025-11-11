@@ -210,6 +210,25 @@
         ]
       }
     },
+	{
+      "type": "Feature",
+      "properties": {
+        "id": "historisk-kolsrudstugu",
+        "name": "Kolsrudstugu",
+        "category": "Interiør",
+        "address": "Møllevegen 18",
+        "year_open": 1950,
+        "year_close": null,
+        "url": "https://my.mpskin.com/tour/kolsrudstugu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.09191,
+          60.56525
+        ]
+      }
+    },
     {
       "type": "Feature",
       "properties": {
